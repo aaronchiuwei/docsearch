@@ -1,3 +1,3 @@
 set -e
 javac DocSearchServer.java Server.java
-java DocSearchServer 4001 http://localhost/
+java DocSearchServer $1 $2
